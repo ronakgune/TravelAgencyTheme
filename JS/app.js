@@ -51,8 +51,10 @@ M.Autocomplete.init(ac, {
     "Cameroon":null,
 
     "Canada":null,
+
     "India":null,
-    "United State of America":null
+
+    "United States of America":null
   }
 });
 
@@ -60,3 +62,8 @@ M.Autocomplete.init(ac, {
 
 const mb = document.querySelectorAll('.materialboxed');
 M.Materialbox.init(mb, {});
+
+//Scroll Spy
+
+const ss = document.querySelectorAll('.scrollspy');
+M.ScrollSpy.init(ss,{});
