@@ -55,3 +55,8 @@ M.Autocomplete.init(ac, {
     "United State of America":null
   }
 });
+
+//Material Boxed
+
+const mb = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(mb, {});
